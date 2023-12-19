@@ -2,6 +2,7 @@
     --bs-font-sans-serif: "Roboto", sans-serif;
     --bs-blue: #2067F5;
     --bs-primary: #2067F5;
+    --custom-red: #7d0703;
     
 }
 
@@ -13,10 +14,12 @@ h5,
 h6 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
+    color: white;
 }
 
 body {
     background: #222A36;
+    color: white;
 }
 
 a {
@@ -28,3 +31,15 @@ a {
         color: white !important;
     }
 
+    .collapse.navbar-collapse .navbar-nav .btn-custom-red {
+        background-color: var(--custom-red);
+        color: #fff; /* Set text color to white or a contrasting color */
+    }
+
+
+
+.navbar-toggler-custom {
+    background-color: var(--custom-red);
+    border-color: var(--custom-red);
+    color: #fff;
+}
