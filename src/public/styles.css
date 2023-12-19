@@ -2,6 +2,7 @@
     --bs-font-sans-serif: "Roboto", sans-serif;
     --bs-blue: #2067F5;
     --bs-primary: #2067F5;
+    
 }
 
 h1,
@@ -13,3 +14,17 @@ h6 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
+
+body {
+    background: #222A36;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link,
+    .navbar-nav .btn {
+        color: white !important;
+    }
+
