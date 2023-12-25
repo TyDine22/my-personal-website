@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>My Personal Website</title>
+    <title>About Me</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website to show my Personal Information">
@@ -36,7 +36,7 @@
 
             <ul class="navbar-nav d-md-none ms-auto p-1">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="about"
+                    <a class="nav-link active" aria-current="page" href="#"
                         target="_self">About Me</a>
                 </li>
 
@@ -54,7 +54,7 @@
                         <a class="nav-link" href="/" target="_self">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="about"
+                        <a class="nav-link active" aria-current="page" href="#"
                             target="_self">About Me</a>
                     </li>
 
@@ -67,7 +67,7 @@
 
                 <ul class="navbar-nav d-md-none">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="about"
+                        <a class="nav-link active" aria-current="page" href="#"
                             target="_self">About Me</a>
                     </li>
 
@@ -90,56 +90,84 @@
         </div>
     </nav>
 
-    <!-- IMAGE -->
-    <div class="container px-0">
-        <div class="row flex-lg-row-reverse align-items-center g-0 py-2">
-            <div class="col-12 col-lg-6 mb-3">
-                <img src="robertpattinson as pb.jpg" class="d-block img-fluid" loading="lazy">
-            </div>
-            <div class="col-12 col-lg-6">
-                <h1 class="display-5 fw-bold lh-1 mb-3 text-start d-none d-lg-block">Hello!</h1>
-                <h1 class="display-5 fw-bold lh-1 mb-3 text-start d-none d-lg-block">My Name is</h1>
-                <p class="lead d-none d-lg-block">
-                    I am a freelance web developer based on Earth who loves to craft attractive design experiences for the web.
-                </p>
-                <h1 class="lead d-block d-lg-none display-5 fw-bold">
-                    Building Website
-                </h1>
-                <h2 class="d-block d-lg-none display-6">
-                    Freelance Web Developer
-                </h2>
-            </div>
+    <!-- HERO SECTION -->
+    <div class="container">
+
+        <!-- Mobile view -->
+        <div class="d-block d-md-none d-flex flex-column justify-content-center align-items-center g-0 py-2">
+            <img src="robertpattinson as pb.jpg" class="d-block img-fluid" style="width: 200px; height: 200px;" loading="lazy">
             
+            <div class="justify-content-center">
+                <h1 class="display-6 fw-bold text-center">
+                    MY NAME
+                </h1>
+
+                <div class="text-center">
+                    Freelance Web Developer
+                </div>
+
+                <div class="d-flex row flex-row justify-content-center align-items-center text-center">
+                    <div class="col-2 text-center ms-3">
+                        <a class="nav-link" href="https://www.youtube.com/channel/UCK9u6v51Rv-ahStJSuLBB4Q" style="padding: 8px 8px 8px 0px; font-size: 20px; display: inline;" target="_blank">
+                            <i class="fa-brands fa-youtube fa-2x"></i>
+                        </a>
+                    </div>
+
+                    <div class="col-2 text-center ms-3">
+                        <a class="nav-link" href="https://github.com/TyDine22" style="padding: 8px 8px 8px 0px; font-size: 20px; display: inline;" target="_blank">
+                            <i class="fa-brands fa-github fa-2x"></i>
+                        </a>
+                    </div>
+
+                    <div class="col-2 text-center ms-3">
+                        <a class="nav-link" href="#" style="padding: 8px 8px 8px 0px; font-size: 20px; display: inline;" target="_blank">
+                            <i class="fa-brands fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         
-    </div>
-
-    <!-- ICONS -->
-    <div class="container mt-5" style="background-color: #7d0703;">
-        <div class="container">
-            <div class="row flex-row justify-content-center align-items-center">
-                <div class="col-2 text-center">
-                    <i class="fa-brands fa-html5 fa-3x"></i>
+        <!-- Tablet and desktop view -->
+        <div class="row align-items-center g-0 py-2 d-none d-md-flex">
+            <div class="col-md-4 col-lg-3 col-xl-2 d-flex align-items-center">
+                <div style="width: 200px; height: 200px; overflow: hidden;">
+                    <img src="robertpattinson as pb.jpg" class="d-block img-fluid" style="width: 100%; height: 100%;" loading="lazy">
                 </div>
+            </div>
+            
+            <div class="col-md-8 col-lg-9 col-xl-10">
+                <h1 class="display-6 fw-bold">
+                    MY NAME
+                </h1>
                 
-                <div class="col-2 text-center">
-                    <i class="fa-brands fa-css3-alt fa-3x"></i>
+                <div>
+                    Freelance Web Developer
                 </div>
 
-                <div class="col-2 text-center">
-                    <i class="fa-solid fa-mug-hot fa-3x"></i>
+                <div class="d-flex row flex-row justify-content-start align-items-center">
+                    <div class="col-2 text-center ms-3">
+                        <a class="nav-link" href="https://www.youtube.com/channel/UCK9u6v51Rv-ahStJSuLBB4Q" style="padding: 8px 8px 8px 0px; font-size: 20px; display: inline;" target="_blank">
+                            <i class="fa-brands fa-youtube fa-2x"></i>
+                        </a>
+                    </div>
+
+                    <div class="col-2 text-center ms-3">
+                        <a class="nav-link" href="https://github.com/TyDine22" style="padding: 8px 8px 8px 0px; font-size: 20px; display: inline;" target="_blank">
+                            <i class="fa-brands fa-github fa-2x"></i>
+                        </a>
+                    </div>
+
+                    <div class="col-2 text-center ms-3">
+                        <a class="nav-link" href="#" style="padding: 8px 8px 8px 0px; font-size: 20px; display: inline;" target="_blank">
+                            <i class="fa-brands fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
                 </div>
 
-                <div class="col-2 text-center">
-                    <i class="fa-brands fa-figma fa-3x"></i>
-                </div>
-                
-                <div class="col-2 text-center">
-                    <i class="fa-brands fa-docker fa-3x"></i>
-                </div>
-                
             </div>
         </div>
+
     </div>
 
     <!-- FOOTER -->

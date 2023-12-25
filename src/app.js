@@ -9,6 +9,10 @@ app.get('/', (req,res) => {
     res.sendFile(path.join(__dirname, 'pages/index.html'));
 })
 
+app.get('/about', (req,res) => {
+    res.sendFile(path.join(__dirname, 'pages/about.html'));
+})
+
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
