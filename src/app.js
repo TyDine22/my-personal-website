@@ -13,6 +13,10 @@ app.get('/about', (req,res) => {
     res.sendFile(path.join(__dirname, 'pages/about.html'));
 })
 
+app.get('/contact', (req,res) => {
+    res.sendFile(path.join(__dirname, 'pages/contact.html'));
+})
+
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {

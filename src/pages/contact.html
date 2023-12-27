@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>My Personal Website</title>
+    <title>Contact Me</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website to show my Personal Information">
@@ -80,7 +80,7 @@
 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="btn btn-custom-red ms-md-2" href="contact">
+                        <a class="btn btn-custom-red ms-md-2" href="#">
                             Contact Me
                         </a>
                     </li>
@@ -90,57 +90,65 @@
         </div>
     </nav>
 
-    <!-- IMAGE -->
-    <div class="container px-0">
-        <div class="row flex-lg-row-reverse align-items-center g-0 py-2">
-            <div class="col-12 col-lg-6 mb-3">
-                <img src="robertpattinson as pb.jpg" class="d-block img-fluid" loading="lazy">
-            </div>
-            <div class="col-12 col-lg-6">
-                <h1 class="display-5 fw-bold lh-1 mb-3 text-start d-none d-lg-block">Hello!</h1>
-                <h1 class="display-5 fw-bold lh-1 mb-3 text-start d-none d-lg-block">My Name is</h1>
-                <p class="lead d-none d-lg-block">
-                    I am a freelance web developer based on Earth who loves to craft attractive design experiences for the web.
-                </p>
-                <h1 class="lead d-block d-lg-none display-5 fw-bold">
-                    Building Website
-                </h1>
-                <h2 class="d-block d-lg-none display-6" style="color: lightgrey;">
-                    Freelance Web Developer
-                </h2>
-            </div>
-            
-        </div>
-        
-    </div>
 
-    <!-- ICONS -->
-    <div class="container mt-5" style="background-color: #7d0703; border-radius: 3px;">
-        <div class="container">
-            <div class="row flex-row justify-content-center align-items-center">
-                <div class="col-2 text-center">
-                    <i class="fa-brands fa-html5 fa-3x"></i>
-                </div>
-                
-                <div class="col-2 text-center">
-                    <i class="fa-brands fa-css3-alt fa-3x"></i>
-                </div>
-
-                <div class="col-2 text-center">
-                    <i class="fa-solid fa-mug-hot fa-3x"></i>
-                </div>
-
-                <div class="col-2 text-center">
-                    <i class="fa-brands fa-figma fa-3x"></i>
-                </div>
-                
-                <div class="col-2 text-center">
-                    <i class="fa-brands fa-docker fa-3x"></i>
-                </div>
-                
+     <!--CONTACT FORM-->
+     <div class="container px-4 mt-5">
+        <h1 class="offset-lg-2 col-lg-8 text-start">Contact Me</h1>
+        <form
+          class="offset-lg-2 col-lg-8"
+          action=""
+          method="POST"
+        >
+          <!--NAME-->
+          <div class="mb-3 col-sm-6">
+            <label for="fullname" class="form-label"> Full Name </label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              required
+              placeholder="John Doe"
+              id="fullname"
+            />
+          </div>
+  
+          <!--EMAIL-->
+          <div class="mb-3 col-sm-6">
+            <label for="email" class="form-label"> Email address </label>
+            <input
+              type="email"
+              class="form-control"
+              name="email"
+              placeholder="john@doe.com"
+              id="email"
+              aria-describedby="emailHelp"
+              required
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
             </div>
-        </div>
-    </div>
+          </div>
+  
+          <!--MESSAGE BOX-->
+          <div class="mb-3">
+            <label for="coverletter" class="form-label">Your Message</label>
+            <textarea
+              placeholder="Your Message"
+              class="form-control"
+              id="coverletter"
+              name="coverletter"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+  
+  
+          <!--SUBMIT BUTTON-->
+          <button type="submit" class="btn btn-custom-red">
+            Submit
+          </button>
+        </form>
+      </div>
 
     <!-- FOOTER -->
     <div class="container">
